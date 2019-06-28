@@ -1,7 +1,11 @@
 def roll_call_dwarves(names)
   new_array = []
+  i = 0
+  num = 1
   names.each do |dwarf|
-    new_array << dwarf.(index +1)
+    new_array << num + dwarf[i]
+    i + 1 
+    num + 1
   end
   puts new_array
 end
