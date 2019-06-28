@@ -1,8 +1,9 @@
 def roll_call_dwarves(names)
-  if names.length > 1 do
+  if names.length > 1 
   names.each_with_index {|name, index|
   puts #{index +1} #{name}
   }
+end
 end
 
 def summon_captain_planet# code an argument here
