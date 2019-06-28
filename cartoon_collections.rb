@@ -2,10 +2,12 @@ def roll_call_dwarves(names)
   new_array = []
   i = 0
   num = 1
-  names.each do |dwarf|
-    new_array << num + dwarf[i]
-    i + 1 
-    num + 1
+  while i < names.length do
+    names.each do |dwarf|
+      new_array << num + dwarf[i]
+      i + 1 
+      num + 1
+    end
   end
   puts new_array
 end
