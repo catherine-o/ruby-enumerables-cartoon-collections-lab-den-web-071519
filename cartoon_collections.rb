@@ -7,7 +7,7 @@ end
 def summon_captain_planet(calls)
   capitalized = []
   calls.map{|name| 
-  capitalized << "#{name.capitalize}!"
+  capitalized << "name.capitalize!"
   }
 end
 
