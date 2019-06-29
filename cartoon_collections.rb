@@ -4,11 +4,12 @@ def roll_call_dwarves(names)
   }
 end
 
-def summon_captain_planet(calls)
+def summon_captain_planet(planeteer_calls)
   capitalized = []
-  calls.map{|name| 
+  planeteer_calls.map{|name| 
   capitalized << "#{name.capitalize}!"
   }
+  return capilatized
 end
 
 def long_planeteer_calls# code an argument here
